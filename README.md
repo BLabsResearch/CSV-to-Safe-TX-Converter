@@ -1,8 +1,9 @@
 # CSV-to-Safe-TX-Converter
 
 This file aids sending batch transactions on SAFE using the Transaction Builder app.
-The **BASE** USDC token contract is hardcoded. You can customise the form manually.
-**Make sure to customise "Safe Address" by entering the address from where you wish to send your funds!**
+Add the Safe address, the one where you want to send your funds from, in the designate field.
+The **BASE** USDC token contract is hardcoded.
+You can customise the form manually.
 
 First create a CSV file with two columns, no headings needed: 
 * the amount to be transferred. Makes sure to use a "." as decimal separator.
